@@ -1,5 +1,10 @@
 {
     "editor.unicodeHighlight.nonBasicASCII": false,
+    "prettier.printWidth": 120,
+    "prettier.singleAttributePerLine": false,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+    "typescript.preferences.includePackageJsonAutoImports": "off",
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
     "workbench.startupEditor": "none",
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
@@ -16,14 +21,13 @@
         "editor.defaultFormatter": "DotJoshJohnson.xml"
     },
     "editor.inlineSuggest.enabled": true,
-    "markdown.trace.extension": "verbose",
     "markdown.validate.enabled": true,
-    "workbench.editorAssociations": {
-        "*.xlsm": "gc-excelviewer-excel-editor"
-    },
     "notebook.lineNumbers": "on",
     "[javascriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[scss]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -36,10 +40,9 @@
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "security.workspace.trust.untrustedFiles": "open",
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
+    // "[typescriptreact]": {
+    //     "editor.defaultFormatter": "vscode.typescript-language-features"
+    // },
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {

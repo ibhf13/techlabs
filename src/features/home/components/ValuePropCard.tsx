@@ -16,15 +16,8 @@ export const ValuePropCard: React.FC<ValuePropCardProps> = ({ icon, title, body 
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-        }}
-      >
-        <img
-          src={`/img/icons/${icon}.svg`}
-          width={48}
-          height={48}
-          alt={`${title} icon`}
-          style={{ display: 'block' }}
-        />
+        }}>
+        <img src={`/img/icons/${icon}.svg`} width={48} height={48} alt={`${title} icon`} style={{ display: 'block' }} />
       </Box>
 
       <Typography variant="h3" component="h3" color="primary" fontWeight="600">

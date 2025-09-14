@@ -77,8 +77,7 @@ export const SectionHeading: React.FC<SectionHeadingProps> = ({
           ...getEmphasisStyles(),
           ...sx,
         }}
-        {...typographyProps}
-      >
+        {...typographyProps}>
         {children}
       </Typography>
       {subtitle && (
@@ -90,8 +89,7 @@ export const SectionHeading: React.FC<SectionHeadingProps> = ({
             pb: 4,
             fontSize: '1.125rem',
             lineHeight: 1.6,
-          }}
-        >
+          }}>
           {subtitle}
         </Typography>
       )}

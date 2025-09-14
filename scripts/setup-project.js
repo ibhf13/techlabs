@@ -8,6 +8,7 @@
 import { execSync } from 'child_process'
 import { existsSync, writeFileSync, readFileSync } from 'fs'
 import { join } from 'path'
+import { fileURLToPath } from 'url'
 
 const GREEN = '\x1b[32m'
 const BLUE = '\x1b[34m'
@@ -140,13 +141,7 @@ class ProjectSetup {
   validateProjectStructure() {
     log.info('Validating project structure...')
 
-    const requiredFiles = [
-      'package.json',
-      'tsconfig.json',
-      'vite.config.ts',
-      'src/main.tsx',
-      'src/App.tsx',
-    ]
+    const requiredFiles = ['package.json', 'tsconfig.json', 'vite.config.ts', 'src/main.tsx', 'src/App.tsx']
 
     const requiredDirs = ['src/components', 'src/features', 'src/hooks', 'src/utils', 'src/theme']
 
@@ -259,7 +254,8 @@ class ProjectSetup {
 }
 
 // Run setup if this script is executed directly
-if (import.meta.url === `file://${process.argv[1]}`) {
+const currentFilePath = fileURLToPath(import.meta.url)
+if (currentFilePath === process.argv[1]) {
   const setup = new ProjectSetup()
   setup
     .runSetup()

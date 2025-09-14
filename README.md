@@ -7,7 +7,7 @@ comprehensive development tooling and performance optimization.
 
 ### Prerequisites
 
-- **Node.js** 20.18.0+ (check `.nvmrc`)
+- **Node.js** 22.17.1+ (check `.nvmrc`)
 - **npm** 10+ (comes with Node.js)
 
 ### Installation
@@ -295,10 +295,7 @@ npm run test:run -- --reporter=verbose
 ## Documentation
 
 - **[Setup Guide](docs/setup-guide.md)** - Detailed setup instructions
-- **[Configuration Reference](docs/configuration-reference.md)** - All
-  configuration options
-- **[Performance Optimization](docs/performance-optimization.md)** - Performance
-  best practices
+- **[Debugging Guide](docs/setup-guide.md)** - Detailed debug instructions
 
 ## License
 
