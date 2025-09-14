@@ -81,15 +81,7 @@ export const SectionHeading: React.FC<SectionHeadingProps> = ({
         {children}
       </Typography>
       {subtitle && (
-        <Typography
-          variant="body1"
-          color="text.secondary"
-          sx={{
-            mt: 2,
-            pb: 4,
-            fontSize: '1.125rem',
-            lineHeight: 1.6,
-          }}>
+        <Typography variant="body1" color="text.secondary" sx={{ mt: 2, pb: 4, fontSize: '1.125rem', lineHeight: 1.6 }}>
           {subtitle}
         </Typography>
       )}
