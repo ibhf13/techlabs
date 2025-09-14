@@ -1,0 +1,32 @@
+{
+  "partners": [
+    {
+      "name": "HUAWEI",
+      "logoUrl": "/img/partners/huawei.svg",
+      "description": "Global technology leader supporting digital transformation",
+      "website": "https://www.huawei.com",
+      "category": "Technology & Innovation"
+    },
+    {
+      "name": "O2",
+      "logoUrl": "/img/partners/o2.svg",
+      "description": "Consumer goods company driving digital innovation",
+      "website": "https://www.o2.com",
+      "category": "Telecommunications"
+    },
+    {
+      "name": "deutsche telekom",
+      "logoUrl": "/img/partners/deutsche-telekom.svg",
+      "description": "Digital agency specializing in creative technology solutions",
+      "website": "https://www.deutsche-telekom.com",
+      "category": "Digital Agency"
+    },
+    {
+      "name": "deutsche post",
+      "logoUrl": "/img/partners/deutsche-post.svg",
+      "description": "Empowering digital transformation through technology",
+      "website": "https://www.deutsche-post.com",
+      "category": "Postal Services"
+    }
+  ]
+}

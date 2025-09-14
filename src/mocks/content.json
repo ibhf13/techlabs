@@ -1,0 +1,93 @@
+{
+  "about": {
+    "mission": {
+      "title": "Empowering the Next Generation of Tech Leaders",
+      "subtitle": "TechLabs is a non-profit organization dedicated to making technology education accessible to everyone, regardless of their background or financial situation.",
+      "description": "We believe that everyone deserves the opportunity to learn in-demand tech skills and build a career in the digital economy. Through our innovative blended learning approach, we combine online resources with local community support to create a unique learning experience that prepares students for real-world success.",
+      "values": [
+        {
+          "title": "Accessibility",
+          "description": "Free education for all, breaking down financial barriers to tech careers"
+        },
+        {
+          "title": "Community",
+          "description": "Local networks of learners, mentors, and industry professionals"
+        },
+        {
+          "title": "Practicality",
+          "description": "Real-world projects and skills that employers actually need"
+        },
+        {
+          "title": "Innovation",
+          "description": "Blended learning that combines the best of online and offline education"
+        }
+      ]
+    },
+    "program": {
+      "title": "How Our Program Works",
+      "description": "TechLabs offers a unique blended learning experience that combines the flexibility of online learning with the support of a local community.",
+      "phases": [
+        {
+          "title": "Application & Selection",
+          "description": "Apply online with your background and goals. We select candidates based on motivation and potential, not prior experience.",
+          "duration": "2 weeks",
+          "icon": "Assignment"
+        },
+        {
+          "title": "Foundation Learning",
+          "description": "Build core skills through our online platform with support from mentors and peers.",
+          "duration": "8 weeks",
+          "icon": "School"
+        },
+        {
+          "title": "Project Development",
+          "description": "Work on real-world projects that build your portfolio and demonstrate your skills.",
+          "duration": "6 weeks",
+          "icon": "Build"
+        },
+        {
+          "title": "Career Launch",
+          "description": "Get support with job applications, networking, and career planning.",
+          "duration": "4 weeks",
+          "icon": "RocketLaunch"
+        }
+      ]
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "description": "Our team combines expertise in education, technology, and community building to create the best possible learning experience.",
+      "members": [
+        {
+          "name": "Dr. Sarah Chen",
+          "role": "Executive Director",
+          "bio": "Former Google engineer with 15+ years in tech education and community development.",
+          "imageUrl": "/img/team/sarah.jpg"
+        },
+        {
+          "name": "Marcus Weber",
+          "role": "Head of Learning",
+          "bio": "Curriculum designer with expertise in adult education and skill development.",
+          "imageUrl": "/img/team/marcus.jpg"
+        },
+        {
+          "name": "Lisa Müller",
+          "role": "Community Manager",
+          "bio": "Passionate about building inclusive communities and connecting people through technology.",
+          "imageUrl": "/img/team/lisa.jpg"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Have questions about our program or want to get involved? We'd love to hear from you.",
+      "email": "hello@techlabs.org",
+      "phone": "+49 211 123 4567",
+      "address": "TechLabs e.V., Königsallee 92, 40212 Düsseldorf, Germany",
+      "social": {
+        "linkedin": "https://linkedin.com/company/techlabs",
+        "twitter": "https://twitter.com/techlabs_de",
+        "github": "https://github.com/techlabs"
+      }
+    }
+  }
+}

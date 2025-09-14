@@ -1,0 +1,38 @@
+#!/usr/bin/env sh
+
+# TechLabs MVP Pre-push Hook
+# Simple build check before pushing to remote repository
+
+# Color codes for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+NC='\033[0m' # No Color
+
+# Function to print colored output
+print_status() {
+    printf "${BLUE}🔍 $1${NC}\n"
+}
+
+print_success() {
+    printf "${GREEN}✅ $1${NC}\n"
+}
+
+print_error() {
+    printf "${RED}❌ $1${NC}\n"
+}
+
+# Exit on any error
+set -e
+
+print_status "Running build check before push..."
+
+# Run build test
+if npm run build; then
+    print_success "Build completed successfully"
+    print_success "Ready to push! 🚀"
+else
+    print_error "Build failed"
+    print_error "Fix build issues before pushing"
+    exit 1
+fi

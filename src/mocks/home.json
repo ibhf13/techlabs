@@ -1,0 +1,136 @@
+{
+  "hero": {
+    "title": "Learn Tech Skills for Free",
+    "emphasis": "Tech",
+    "subtitle": "Blended learning · Local Community · Practical Projects"
+  },
+  "tracks": [
+    { "id": "web-dev", "label": "Web Development" },
+    { "id": "data-science", "label": "Data Science" },
+    { "id": "product-design", "label": "Product Design" },
+    { "id": "ai", "label": "Artificial Intelligence" }
+  ],
+  "applicationDeadlineISO": "2025-11-15T00:00:00Z",
+  "partners": [
+    { "name": "O2", "logoUrl": "/img/partners/o2.svg" },
+    { "name": "HUAWEI", "logoUrl": "/img/partners/huawei.svg" },
+    {
+      "name": "Deutsche Telekom",
+      "logoUrl": "/img/partners/deutsche-telekom.svg"
+    },
+    {
+      "name": "Deutsche Post",
+      "logoUrl": "/img/partners/deutsche-post.svg"
+    }
+  ],
+  "video": {
+    "posterUrl": "/img/Intro-thumbnail.png",
+    "srcUrl": "/video/intro.mp4",
+    "duration": 9
+  },
+  "features": [
+    {
+      "icon": "free",
+      "title": "Totally free",
+      "body": "We free your mind for what matters the most to the wold, unlocking your true potential"
+    },
+    {
+      "icon": "network",
+      "title": "Networking",
+      "body": "Expand your network through our community for potential job opportunities or startups"
+    },
+    {
+      "icon": "job",
+      "title": "Job Ready",
+      "body": "You create a project that build your portfolio as a fundamental step towards your dream job"
+    }
+  ],
+  "stories": [
+    {
+      "id": "1",
+      "title": "Max Startup is Rocketing",
+      "excerpt": "I built my MVP and secured seed funding in just 6 months",
+      "fullDescription": "Max joined TechLabs with a background in business but no technical skills. Through the Web Development track, he learned to build his own MVP and validate his startup idea. Within 6 months of graduating, he secured seed funding and now leads a team of 5 developers.",
+      "imageUrl": "/img/stories/person1.png",
+      "href": "/stories/max-startup",
+      "track": "web-dev",
+      "trackLabel": "Web Development",
+      "graduationDate": "2024-03",
+      "location": "Berlin",
+      "currentRole": "Founder & CEO",
+      "company": "TechFlow Solutions",
+      "achievements": [
+        "Secured €500K seed funding",
+        "Built MVP from scratch",
+        "Hired 5-person development team"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Lia has just landed her first Client",
+      "excerpt": "From marketing to data science – my first client came within 2 weeks",
+      "fullDescription": "Lia was a marketing professional looking to transition into data science. The Data Science track at TechLabs gave her the practical skills and portfolio she needed. She now works as a freelance data analyst, helping startups make data-driven decisions.",
+      "imageUrl": "/img/stories/person2.png",
+      "href": "/stories/lia-first-client",
+      "track": "data-science",
+      "trackLabel": "Data Science",
+      "graduationDate": "2024-01",
+      "location": "Munich",
+      "currentRole": "Freelance Data Analyst",
+      "company": "Self-employed",
+      "achievements": [
+        "First client within 2 weeks of graduation",
+        "€3K monthly recurring revenue",
+        "Portfolio of 3 successful projects"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Anna now is the head of Tech",
+      "excerpt": "From junior developer to Head of Technology in 8 months",
+      "fullDescription": "Anna came to TechLabs as a junior developer looking to advance her career. The comprehensive curriculum and mentorship helped her develop both technical and leadership skills. She's now Head of Technology at a growing fintech company.",
+      "imageUrl": "/img/stories/person3.png",
+      "href": "/stories/anna-lead",
+      "track": "web-dev",
+      "trackLabel": "Web Development",
+      "graduationDate": "2023-11",
+      "location": "Hamburg",
+      "currentRole": "Head of Technology",
+      "company": "FinTech Innovations",
+      "achievements": [
+        "Promoted from Junior to Lead in 8 months",
+        "Manages team of 8 developers",
+        "Led successful product launch"
+      ]
+    }
+  ],
+  "numbers": [
+    { "label": "Cities", "value": "15" },
+    { "label": "Graduates", "value": "+600" },
+    { "label": "Mentors", "value": "35" }
+  ],
+  "support": {
+    "title": "Support Tech Education",
+    "body": "Help us empower the next generation by funding cohorts and resources.",
+    "imageUrl": "/img/background.png",
+    "cta": { "label": "Support Tech Education", "to": "/support" }
+  },
+  "faqs": [
+    {
+      "q": "Where does the TechLabs take place?",
+      "a": "We run in multiple cities and online. Check the application page for your city."
+    },
+    {
+      "q": "Is it a full time program?",
+      "a": "No. It is designed to fit alongside work or studies (part-time)."
+    },
+    {
+      "q": "Where does the TechLabs take place?",
+      "a": "We run in multiple cities and online. Check the application page for your city."
+    },
+    {
+      "q": "Is it a full time program?",
+      "a": "No. It is designed to fit alongside work or studies (part-time)."
+    }
+  ]
+}
