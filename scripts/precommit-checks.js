@@ -544,7 +544,7 @@ class QualityChecker {
       () => this.checkGitStatus(),
       () => this.checkCommitMessage(),
       // () => this.checkTests(), // Temporarily disabled due to timeout
-      // () => this.checkCoverageThreshold(),
+      // () => this.checkCoverageThreshold(),//
       // () => this.checkSecurity(),
       // () => this.checkUnusedImports(),
       // () => this.checkBundleSize(),
